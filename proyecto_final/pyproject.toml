@@ -6,7 +6,7 @@ authors = ["Sarctiann <sebas.sarc@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 fastapi = {extras = ["standard"], version = "^0.112.0"}
 pymongo = {extras = ["srv"], version = "^4.8.0"}
 pydantic-mongo = "^2.3.0"
